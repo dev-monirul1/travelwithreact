@@ -1,0 +1,58 @@
+/* ===== navbar css style start here ==== */
+#navbar{
+    padding: 15px 0;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 100%;
+}
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    
+}
+.menu{
+    width: 60%;
+    
+    
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    color: #036E8A;
+     font-family: "Montserrat", sans-serif;
+}
+.nav_actions{
+    width: 20%;
+    display: flex;
+    gap: 8px;
+    justify-content: end;
+}
+.nav_action_item{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 1px solid #036E8A;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_action_item i{
+    color: #036E8A;
+    font-size: 10px;
+}
+
+/* ===== navbar css style end here ==== */

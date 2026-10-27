@@ -1,0 +1,43 @@
+/* ===== common css style start ===== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    max-width: 1148px;
+    margin: 0 auto;
+}
+.sec_subtitle{
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+}
+.sec_title{
+    font-family: "Montserrat", sans-serif;
+    color: #036E8A;
+    font-size: 55px;
+    line-height: normal;
+    font-weight: 700;
+}
+.peragraph{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 1.3;
+}
+/* ===== common css style end ===== */
+
