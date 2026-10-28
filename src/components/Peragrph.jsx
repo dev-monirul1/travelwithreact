@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Peragrph = (text , style) => {
+const Peragrph = ({text , style}) => {
   return (
     <p className={style}>{text}</p>
   )

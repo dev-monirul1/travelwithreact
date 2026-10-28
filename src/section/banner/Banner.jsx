@@ -15,9 +15,9 @@ const Banner = () => {
                 <p className="peragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                     euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
                     nostrud exerci tation.</p>
-                {/* <Peragrph style="peragraph" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                <Peragrph style="peragraph" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                     euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                    nostrud exerci tation." /> */}
+                    nostrud exerci tation." />
                 <form action="">
                     <div className="form_inner">
                         <div className="banner_search">
