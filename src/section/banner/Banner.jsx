@@ -5,6 +5,7 @@ import './banner.css'
 import { FaSearch } from "react-icons/fa";
 import { FiMapPin } from "react-icons/fi";
 import Peragrph from "../../components/Peragrph"
+import Input from '../../components/Input'; 
 
 const Banner = () => {
   return (
@@ -21,7 +22,8 @@ const Banner = () => {
                 <form action="">
                     <div className="form_inner">
                         <div className="banner_search">
-                            <input type="text" placeholder="Enter Your Location" />
+                            {/* <input type="text" placeholder="Enter Your Location" /> */}
+                            <Input type='text' placeholder="Enter Your Location" />
                             <FaSearch />
                         </div>
                         <div className="map_circle">

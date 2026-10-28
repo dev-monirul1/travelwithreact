@@ -3,7 +3,7 @@ import logoimg from '../../assets/images/logoimg.png'
 import './navbar.css'
 import Image from '../../components/Image'
 import Anchor from '../../components/Anchor'
-import { menuData } from '../../dummyData/menuData'
+import  menuData  from '../../dummyData/menuData'
 
 
 
