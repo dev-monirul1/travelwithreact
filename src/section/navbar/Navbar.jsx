@@ -3,40 +3,10 @@ import logoimg from '../../assets/images/logoimg.png'
 import './navbar.css'
 import Image from '../../components/Image'
 import Anchor from '../../components/Anchor'
+import { menuData } from '../../dummyData/menuData'
 
 
-const data = [
-    {
-        id: 1,
-        label : 'home',
-        url: "a"
-    },
-    {
-        id: 1,
-        label : 'pages',
-        url: "a"
-    },
-    {
-        id: 1,
-        label : 'travel',
-        url: "a"
-    },
-    {
-        id: 1,
-        label : 'blog',
-        url: "a"
-    },
-    {
-        id: 1,
-        label : 'shop',
-        url: "a"
-    },
-    {
-        id: 1,
-        label : 'lements',
-        url: "a"
-    }
-]
+
 
 const Navbar = () => {
   return (
@@ -54,7 +24,7 @@ const Navbar = () => {
                 </div>
                 <div className="menu">
                     <ul>
-                        {data.map((item, index)=>(
+                        {menuData.map((item, index)=>(
                             <li key={index}>
                             {/* <a href={item.url}>{item.label}</a> */}
                             <Anchor href={item.url}>
