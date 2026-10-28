@@ -11,6 +11,8 @@ const [username, setUsername]= useState('Monirul')
 
 const [value, setValue] = useState(0)
 const [passtype, setPasstype]= useState(true)
+const [inputValue, setInputValue]= useState("")
+const [finalValue, setFinalVAlue]= useState("")
 
     const handleIncrement = ()=>{
          
@@ -46,11 +48,14 @@ const [passtype, setPasstype]= useState(true)
             <input type={`${passtype ? 'password' : 'text'}`} placeholder='Enter Your Password' /> <button onClick={()=>setPasstype(false)}>Show</button>
         </div> */}
         <div style={{padding: '50px'}}>
-            <input type={`${passtype ? 'password' : 'text'}`} placeholder='Enter Your Password' /> 
+            <input onChange={(e)=>setInputValue(e.target.value)} type={`${passtype ? 'password' : 'text'}`} placeholder='Enter Your Password' /> 
             {/* <button onClick={()=>setPasstype(!passtype)}>{passtype ? 'Show' : 'Hide'}</button> */}
             <button onClick={()=>setPasstype(!passtype)}>
                 {passtype ? <FaRegEyeSlash /> : <FaRegEye />}               
             </button>
+            <button onClick={()=>setFinalVAlue(inputValue)}>Submit</button>
+            <h3>Input Value: {finalValue}</h3>
+            <h3>Input Value: {inputValue}</h3>
             
             
 
