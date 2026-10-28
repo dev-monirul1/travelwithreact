@@ -1,4 +1,8 @@
 import React, { useState } from 'react'
+import { FaRegEye } from "react-icons/fa6";
+import { FaRegEyeSlash } from "react-icons/fa6";
+
+
 
 const Test = () => {
 
@@ -43,7 +47,14 @@ const [passtype, setPasstype]= useState(true)
         </div> */}
         <div style={{padding: '50px'}}>
             <input type={`${passtype ? 'password' : 'text'}`} placeholder='Enter Your Password' /> 
-            <button onClick={()=>setPasstype(!passtype)}>{passtype ? 'Show' : 'Hide'}</button>
+            {/* <button onClick={()=>setPasstype(!passtype)}>{passtype ? 'Show' : 'Hide'}</button> */}
+            <button onClick={()=>setPasstype(!passtype)}>
+                {passtype ? <FaRegEyeSlash /> : <FaRegEye />}               
+            </button>
+            
+            
+
+
         </div>
         <button onClick={handleIncrement}>Increment</button>
         <h1 style={{padding: '100px'}}>Count Value: {value} {username}</h1>
