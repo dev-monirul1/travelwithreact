@@ -44,10 +44,10 @@ const Navbar = () => {
         <div className="container">
             <div className="nav_wrapper">
                 <div className="logo">
-                    <a href="#">
+                    {/* <a href="#"> */}
                         {/* <img src={logoimg} alt="logo" /> */}
-                        <Image source={logoimg} alt="logo" style="logo_img" />
-                    </a>
+                        {/* <Image source={logoimg} alt="logo" style="logo_img" /> */}
+                    {/* </a> */}
                     <Anchor href="/">
                         <Image source={logoimg} alt="logo" style="logo_img" />
                     </Anchor>
@@ -56,7 +56,7 @@ const Navbar = () => {
                     <ul>
                         {data.map((item, index)=>(
                             <li key={index}>
-                            <a href={item.url}>{item.label}</a>
+                            {/* <a href={item.url}>{item.label}</a> */}
                             <Anchor href={item.url}>
                                 {item.label}
                             </Anchor>
