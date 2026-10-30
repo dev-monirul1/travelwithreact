@@ -1,5 +1,6 @@
 import React from 'react'
 import './package.css'
+import { FaCheckCircle } from "react-icons/fa";
 
 const Package = () => {
   return (
@@ -20,40 +21,17 @@ const Package = () => {
                         <h3 class="sec_title price">$9</h3>
                         <h5>Per Month</h5>
                         <ul>
-                            <li><i class="fa-solid fa-circle-check"></i> <span>International Air Ticket.</span>
+                            <li><FaCheckCircle /> <span>International Air Ticket.</span>
                             </li>
-                            <li><i class="fa-solid fa-circle-check"></i> <span>Daily Continental Breakfast.</span>
+                            <li><FaCheckCircle /> <span>Daily Continental Breakfast.</span>
                             </li>
-                            <li><i class="fa-solid fa-circle-check"></i> <span>Lunch And Dinner</span>
+                            <li><FaCheckCircle /> <span>Lunch And Dinner</span>
                             </li>
-                            <li><i class="fa-solid fa-circle-check"></i> <span>City Tour with Guide</span>
+                            <li><FaCheckCircle /> <span>City Tour with Guide</span>
                             </li>
-                            <li><i class="fa-solid fa-circle-check disable"></i> <span>09 Nights Hotel</span>
+                            <li><FaCheckCircle /> <span>09 Nights Hotel</span>
                             </li>
-                            <li><i class="fa-solid fa-circle-check disable"></i> <span>Desert Safari & BBQ Dinner</span>
-                            </li>
-                        </ul>
-                        <a class="package_btn" href="#">GET STARTED</a>
-                    </div>
-                    <p class="peragraph trial">4 Days Trial Available</p>
-                </div>
-                <div class="package_item">
-                    <div class="package_item_inner">
-                        <h3 class="sec_title">STARTER</h3>
-                        <h3 class="sec_title price">$9</h3>
-                        <h5>Per Month</h5>
-                        <ul>
-                            <li><i class="fa-solid fa-circle-check"></i> <span>International Air Ticket.</span>
-                            </li>
-                            <li><i class="fa-solid fa-circle-check"></i> <span>Daily Continental Breakfast.</span>
-                            </li>
-                            <li><i class="fa-solid fa-circle-check"></i> <span>Lunch And Dinner</span>
-                            </li>
-                            <li><i class="fa-solid fa-circle-check"></i> <span>City Tour with Guide</span>
-                            </li>
-                            <li><i class="fa-solid fa-circle-check disable"></i> <span>09 Nights Hotel</span>
-                            </li>
-                            <li><i class="fa-solid fa-circle-check disable"></i> <span>Desert Safari & BBQ Dinner</span>
+                            <li><FaCheckCircle /> <span>Desert Safari & BBQ Dinner</span>
                             </li>
                         </ul>
                         <a class="package_btn" href="#">GET STARTED</a>
@@ -66,17 +44,40 @@ const Package = () => {
                         <h3 class="sec_title price">$9</h3>
                         <h5>Per Month</h5>
                         <ul>
-                            <li><i class="fa-solid fa-circle-check"></i> <span>International Air Ticket.</span>
+                            <li><FaCheckCircle /> <span>International Air Ticket.</span>
                             </li>
-                            <li><i class="fa-solid fa-circle-check"></i> <span>Daily Continental Breakfast.</span>
+                            <li><FaCheckCircle /> <span>Daily Continental Breakfast.</span>
                             </li>
-                            <li><i class="fa-solid fa-circle-check"></i> <span>Lunch And Dinner</span>
+                            <li><FaCheckCircle /> <span>Lunch And Dinner</span>
                             </li>
-                            <li><i class="fa-solid fa-circle-check"></i> <span>City Tour with Guide</span>
+                            <li><FaCheckCircle /> <span>City Tour with Guide</span>
                             </li>
-                            <li><i class="fa-solid fa-circle-check disable"></i> <span>09 Nights Hotel</span>
+                            <li><FaCheckCircle /> <span>09 Nights Hotel</span>
                             </li>
-                            <li><i class="fa-solid fa-circle-check disable"></i> <span>Desert Safari & BBQ Dinner</span>
+                            <li><FaCheckCircle /> <span>Desert Safari & BBQ Dinner</span>
+                            </li>
+                        </ul>
+                        <a class="package_btn" href="#">GET STARTED</a>
+                    </div>
+                    <p class="peragraph trial">4 Days Trial Available</p>
+                </div>
+                <div class="package_item">
+                    <div class="package_item_inner">
+                        <h3 class="sec_title">STARTER</h3>
+                        <h3 class="sec_title price">$9</h3>
+                        <h5>Per Month</h5>
+                        <ul>
+                            <li><FaCheckCircle /> <span>International Air Ticket.</span>
+                            </li>
+                            <li><FaCheckCircle /> <span>Daily Continental Breakfast.</span>
+                            </li>
+                            <li><FaCheckCircle /> <span>Lunch And Dinner</span>
+                            </li>
+                            <li><FaCheckCircle /> <span>City Tour with Guide</span>
+                            </li>
+                            <li><FaCheckCircle /> <span>09 Nights Hotel</span>
+                            </li>
+                            <li><FaCheckCircle /> <span>Desert Safari & BBQ Dinner</span>
                             </li>
                         </ul>
                         <a class="package_btn" href="#">GET STARTED</a>
