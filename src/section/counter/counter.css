@@ -1,0 +1,32 @@
+#counter{
+    margin: 112px 0 97px;
+    padding: 90px 0 120px 0;
+    background: url("../images/counter\ img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 999;
+}
+.counter_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.counter_item{
+    width: 22%;
+    text-align: center;
+}
+.counter_item h3{
+    color: #707070;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+}
+.counter_item span{
+    color: #707070;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+}
