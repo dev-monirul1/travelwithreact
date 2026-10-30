@@ -5,20 +5,20 @@ import { FaCheckCircle } from "react-icons/fa";
 const Package = () => {
   return (
     <section id="package">
-        <div class="package_shape">
+        <div className="package_shape">
             <img src="./images/packageshape.png" alt="img"/>
         </div>
-        <div class="container">
-            <div class="package_title">
-                <h2 class="sec_title">Special Package</h2>
-                <p class="peragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+        <div className="container">
+            <div className="package_title">
+                <h2 className="sec_title">Special Package</h2>
+                <p className="peragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                     euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
             </div>
-            <div class="package_wrapper">
-                <div class="package_item">
-                    <div class="package_item_inner">
-                        <h3 class="sec_title">STARTER</h3>
-                        <h3 class="sec_title price">$9</h3>
+            <div className="package_wrapper">
+                <div className="package_item">
+                    <div className="package_item_inner">
+                        <h3 className="sec_title">STARTER</h3>
+                        <h3 className="sec_title price">$9</h3>
                         <h5>Per Month</h5>
                         <ul>
                             <li><FaCheckCircle /> <span>International Air Ticket.</span>
@@ -34,14 +34,14 @@ const Package = () => {
                             <li><FaCheckCircle /> <span>Desert Safari & BBQ Dinner</span>
                             </li>
                         </ul>
-                        <a class="package_btn" href="#">GET STARTED</a>
+                        <a className="package_btn" href="#">GET STARTED</a>
                     </div>
-                    <p class="peragraph trial">4 Days Trial Available</p>
+                    <p className="peragraph trial">4 Days Trial Available</p>
                 </div>
-                <div class="package_item">
-                    <div class="package_item_inner">
-                        <h3 class="sec_title">STARTER</h3>
-                        <h3 class="sec_title price">$9</h3>
+                <div className="package_item">
+                    <div className="package_item_inner">
+                        <h3 className="sec_title">STARTER</h3>
+                        <h3 className="sec_title price">$9</h3>
                         <h5>Per Month</h5>
                         <ul>
                             <li><FaCheckCircle /> <span>International Air Ticket.</span>
@@ -57,14 +57,14 @@ const Package = () => {
                             <li><FaCheckCircle /> <span>Desert Safari & BBQ Dinner</span>
                             </li>
                         </ul>
-                        <a class="package_btn" href="#">GET STARTED</a>
+                        <a className="package_btn" href="#">GET STARTED</a>
                     </div>
-                    <p class="peragraph trial">4 Days Trial Available</p>
+                    <p className="peragraph trial">4 Days Trial Available</p>
                 </div>
-                <div class="package_item">
-                    <div class="package_item_inner">
-                        <h3 class="sec_title">STARTER</h3>
-                        <h3 class="sec_title price">$9</h3>
+                <div className="package_item">
+                    <div className="package_item_inner">
+                        <h3 className="sec_title">STARTER</h3>
+                        <h3 className="sec_title price">$9</h3>
                         <h5>Per Month</h5>
                         <ul>
                             <li><FaCheckCircle /> <span>International Air Ticket.</span>
@@ -80,9 +80,9 @@ const Package = () => {
                             <li><FaCheckCircle /> <span>Desert Safari & BBQ Dinner</span>
                             </li>
                         </ul>
-                        <a class="package_btn" href="#">GET STARTED</a>
+                        <a className="package_btn" href="#">GET STARTED</a>
                     </div>
-                    <p class="peragraph trial">4 Days Trial Available</p>
+                    <p className="peragraph trial">4 Days Trial Available</p>
                 </div>
 
             </div>
