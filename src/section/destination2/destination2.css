@@ -1,0 +1,41 @@
+#destination2{
+    background-color: #036E8A;
+    padding: 70px 0;
+}
+.destination2_shape{
+    position: relative;
+}
+.destination2_shape img{
+    position: absolute;
+    left: 50%;
+    bottom: -35px;
+    transform: translateX(-50%);
+}
+.destination2_wrapper{
+    display: flex;align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 999;
+}
+.destination2_img{
+    width: 508px;
+    height: 523px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.destination2_img img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.destination2_details{
+    width: 566px;
+}
+.destination2_details .sec_subtitle{
+    color: #fff;
+}
+.destination2_details .sec_title{
+    color: #fff;
+    margin: 30px 0;
+    
+}
