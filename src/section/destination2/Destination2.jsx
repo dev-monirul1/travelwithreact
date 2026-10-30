@@ -1,4 +1,5 @@
 import React from 'react'
+import './destination2.css'
 
 const Destination2 = () => {
   return (
