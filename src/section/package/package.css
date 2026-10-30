@@ -114,7 +114,7 @@
 .package_item_inner:hover{
     border: 1px solid #FF8000;
 }
-.package_item_inner:hover .sec_title, .package_item_inner:hover h5, .package_item_inner:hover ul li i{
+.package_item_inner:hover .sec_title, .package_item_inner:hover h5, .package_item_inner:hover ul li svg{
     color: #FF8000;
 }
 .package_item_inner:hover .package_btn{
