@@ -8,6 +8,7 @@ import Gallary from "./section/gallary/Gallary"
 import Counter from "./section/counter/Counter"
 import Newsletter from "./section/newsletter/Newsletter"
 import Brand from "./section/brand/Brand"
+import Review from "./section/review/Review"
 
 function App() {
  
@@ -23,6 +24,7 @@ function App() {
       <Counter/>
       <Newsletter/>
       <Brand/>
+      <Review/>
       <Test/>
     </>
   )
