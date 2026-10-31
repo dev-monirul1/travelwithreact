@@ -7,6 +7,7 @@ import Destination2 from "./section/destination2/Destination2"
 import Gallary from "./section/gallary/Gallary"
 import Counter from "./section/counter/Counter"
 import Newsletter from "./section/newsletter/Newsletter"
+import Brand from "./section/brand/Brand"
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
       <Gallary/>
       <Counter/>
       <Newsletter/>
+      <Brand/>
       <Test/>
     </>
   )
