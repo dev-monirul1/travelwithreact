@@ -6,6 +6,7 @@ import Package from "./section/package/Package"
 import Destination2 from "./section/destination2/Destination2"
 import Gallary from "./section/gallary/Gallary"
 import Counter from "./section/counter/Counter"
+import Newsletter from "./section/newsletter/Newsletter"
 
 function App() {
  
@@ -19,6 +20,7 @@ function App() {
       <Destination2/>
       <Gallary/>
       <Counter/>
+      <Newsletter/>
       <Test/>
     </>
   )
