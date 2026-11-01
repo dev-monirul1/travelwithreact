@@ -6,6 +6,7 @@ import Anchor from '../../components/Anchor'
 import { menuData }  from '../../dummyData/menuData'
 import { FaMessage } from "react-icons/fa6";
 import { FaLocationArrow } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
 
 
 
@@ -45,7 +46,7 @@ const Navbar = () => {
                         <FaLocationArrow />
                     </a>
                     <a href="#" className="nav_action_item">
-                        <i className="fa-solid fa-heart"></i>
+                        <FaHeart />
                     </a>
                     <a href="#" className="nav_action_item">
                         <i className="fa-solid fa-plus"></i>
