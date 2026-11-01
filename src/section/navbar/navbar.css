@@ -50,7 +50,7 @@
     align-items: center;
     justify-content: center;
 }
-.nav_action_item i{
+.nav_action_item svg{
     color: #036E8A;
     font-size: 10px;
 }
