@@ -3,11 +3,11 @@ import React from 'react'
 const Footer = () => {
   return (
     <section id="footer">
-        <div class="container">
-            <div class="footer_wrapper">
-                <div class="footer_item">
-                    <h3 class="footer_title">QUICK LINKS</h3>
-                    <ul class="footer_link">
+        <div className="container">
+            <div className="footer_wrapper">
+                <div className="footer_item">
+                    <h3 className="footer_title">QUICK LINKS</h3>
+                    <ul className="footer_link">
                         <li>
                             <a href="#">Help</a>
                         </li>
@@ -25,9 +25,9 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div class="footer_item">
-                    <h3 class="footer_title">LEGAL STUFF</h3>
-                    <ul class="footer_link">
+                <div className="footer_item">
+                    <h3 className="footer_title">LEGAL STUFF</h3>
+                    <ul className="footer_link">
                         <li>
                             <a href="#">Terms Of Use</a>
                         </li>
@@ -45,9 +45,9 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div class="footer_item">
-                    <h3 class="footer_title">OUR TEAM</h3>
-                    <ul class="footer_link">
+                <div className="footer_item">
+                    <h3 className="footer_title">OUR TEAM</h3>
+                    <ul className="footer_link">
                         <li>
                             <a href="#">Testimonials</a>
                         </li>
@@ -62,9 +62,9 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div class="footer_item">
-                    <h3 class="footer_title">FEATURED SERVICES</h3>
-                    <ul class="footer_link">
+                <div className="footer_item">
+                    <h3 className="footer_title">FEATURED SERVICES</h3>
+                    <ul className="footer_link">
                         <li>
                             <a href="#">Local SEO</a>
                         </li>
@@ -84,25 +84,25 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div class="copyRight">
-            <div class="container">
-                <div class="copyRight_wrapper">
-                    <p class="peragraph">Copyright 2023-2026 example.com </p>
-                    <div class="footer_social">
-                        <a href="#" class="nav_action_item">
-                            <i class="fa-solid fa-message"></i>
+        <div className="copyRight">
+            <div className="container">
+                <div className="copyRight_wrapper">
+                    <p className="peragraph">Copyright 2023-2026 example.com </p>
+                    <div className="footer_social">
+                        <a href="#" className="nav_action_item">
+                            <i className="fa-solid fa-message"></i>
                         </a>
-                        <a href="#" class="nav_action_item">
-                            <i class="fa-solid fa-location-arrow"></i>
+                        <a href="#" className="nav_action_item">
+                            <i className="fa-solid fa-location-arrow"></i>
                         </a>
-                        <a href="#" class="nav_action_item">
-                            <i class="fa-solid fa-heart"></i>
+                        <a href="#" className="nav_action_item">
+                            <i className="fa-solid fa-heart"></i>
                         </a>
-                        <a href="#" class="nav_action_item">
-                            <i class="fa-solid fa-plus"></i>
+                        <a href="#" className="nav_action_item">
+                            <i className="fa-solid fa-plus"></i>
                         </a>
                     </div>
-                    <p class="peragraph">Terms of service Privacy policy ookie policy.</p>
+                    <p className="peragraph">Terms of service Privacy policy ookie policy.</p>
                 </div>
             </div>
         </div>
