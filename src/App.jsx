@@ -10,6 +10,7 @@ import Newsletter from "./section/newsletter/Newsletter"
 import Brand from "./section/brand/Brand"
 import Review from "./section/review/Review"
 import Msg_us from "./section/msg_us/Msg_us"
+import Footer from "./section/footer/Footer"
 
 function App() {
  
@@ -27,6 +28,7 @@ function App() {
       <Brand/>
       <Review/>
       <Msg_us/>
+      <Footer/>
       <Test/>
     </>
   )
