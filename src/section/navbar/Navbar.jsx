@@ -7,6 +7,7 @@ import { menuData }  from '../../dummyData/menuData'
 import { FaMessage } from "react-icons/fa6";
 import { FaLocationArrow } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa";
 
 
 
@@ -49,7 +50,7 @@ const Navbar = () => {
                         <FaHeart />
                     </a>
                     <a href="#" className="nav_action_item">
-                        <i className="fa-solid fa-plus"></i>
+                        <FaPlus />
                     </a>
                 </div>
             </div>
