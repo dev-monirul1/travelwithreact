@@ -4,6 +4,7 @@ import './navbar.css'
 import Image from '../../components/Image'
 import Anchor from '../../components/Anchor'
 import { menuData }  from '../../dummyData/menuData'
+import { FaMessage } from "react-icons/fa6";
 
 
 
@@ -37,7 +38,7 @@ const Navbar = () => {
                 </div>
                 <div className="nav_actions">
                     <a href="#" className="nav_action_item">
-                        <i className="fa-solid fa-message"></i>
+                        <FaMessage />
                     </a>
                     <a href="#" className="nav_action_item">
                         <i className="fa-solid fa-location-arrow"></i>
