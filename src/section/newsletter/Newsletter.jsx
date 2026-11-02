@@ -8,15 +8,15 @@ const Newsletter = () => {
         <div className="container">
             <div className="newsletter_gal">
                 <div className="newsletter_gal_item">
-                    <img src="./images/pic 12.png" alt="not found"/>
+                    <Image source={logoimg} alt="logo" style="logo_img" />
                 </div>
                 <div className="newsletter_gal_item">
-                    <img src="./images/pic 13.png" alt="not found"/>
+                    <Image source={logoimg} alt="logo" style="logo_img" />
                 </div>
             </div>
             <div className="newsletter_box">
                 <div className="newsletter_box_img">
-                    <img src="./images/pic 14.png" alt=""/>
+                    <Image source={logoimg} alt="logo" style="logo_img" />
                 </div>
                 <div className="newsletter_box_form">
                     <h4 className="sec_subtitle">
