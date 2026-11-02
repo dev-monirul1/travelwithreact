@@ -1,9 +1,9 @@
 import React from 'react'
 import './newsletter.css'
 import Image from '../../components/Image'
-import newsletterimg1 from '../../assets/images/newsletterimg1.jpg'
-import newsletterimg2 from '../../assets/images/newsletterimg2.jpg'
-import newsletterimg3 from '../../assets/images/newsletterimg3.jpg'
+import newsletterimg1 from '../../assets/images/newsletterimg1.png'
+import newsletterimg2 from '../../assets/images/newsletterimg2.png'
+import newsletterimg3 from '../../assets/images/newsletterimg3.png'
 
 const Newsletter = () => {
   return (
@@ -16,13 +16,10 @@ const Newsletter = () => {
                 <div className="newsletter_gal_item">
                     <Image source={newsletterimg2} alt="newsletterimg2" style="newsletterimg2_img" />
                 </div>
-                <div className="newsletter_gal_item">
-                    <Image source={newsletterimg3} alt="newsletterimg3" style="newsletterimg3_img" />
-                </div>
             </div>
             <div className="newsletter_box">
                 <div className="newsletter_box_img">
-                    <Image source={logoimg} alt="logo" style="logo_img" />
+                    <Image source={newsletterimg3} alt="newsletterimg3" style="newsletterimg3_img" />
                 </div>
                 <div className="newsletter_box_form">
                     <h4 className="sec_subtitle">
