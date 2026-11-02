@@ -3,7 +3,7 @@ import './counter.css'
 
 const Counter = () => {
   return (
-    <section id="counter">
+    <section id="counter" style={{backgroundImage: `url(${bannerimg})`}}>
         <div className="container">
             <div className="counter_wrapper">
                 <div className="counter_item">
