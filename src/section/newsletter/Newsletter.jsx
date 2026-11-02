@@ -1,6 +1,7 @@
 import React from 'react'
 import './newsletter.css'
 import Image from '../../components/Image'
+import newsletterimg1 from '../../assets/images/newsletterimg1.jpg'
 
 const Newsletter = () => {
   return (
@@ -8,7 +9,7 @@ const Newsletter = () => {
         <div className="container">
             <div className="newsletter_gal">
                 <div className="newsletter_gal_item">
-                    <Image source={logoimg} alt="logo" style="logo_img" />
+                    <Image source={newsletterimg1} alt="newsletterimg1" style="newsletterimg1_img" />
                 </div>
                 <div className="newsletter_gal_item">
                     <Image source={logoimg} alt="logo" style="logo_img" />
