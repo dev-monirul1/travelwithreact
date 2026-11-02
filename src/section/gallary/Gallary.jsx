@@ -7,7 +7,7 @@ const Gallary = () => {
   return (
     <section className="gallary">
         <div className="gal_shape">
-            <img src="./images/packageshape.png" alt=""/>
+            <Image source={packageshape} alt="package shape" style="package_shape_img" />
         </div>
         <div className="container">
             <div className="gal_title">
