@@ -2,6 +2,7 @@ import React from 'react'
 import './destination2.css'
 import Image from '../../components/Image'
 import destination2img from '../../assets/images/destination2img.png'
+import destination2_shape from '../../assets/images/destination2_shape.svg'
 
 
 const Destination2 = () => {
@@ -27,7 +28,7 @@ const Destination2 = () => {
             </div>
         </div>
         <div className="destination2_shape">
-            <img src="./svg/destination2_shape.svg" alt="img"/>
+            <Image source={destination2_shape} alt="destination 2 shape" style="destination2_shape_img" />
         </div>
     </section>
   )
