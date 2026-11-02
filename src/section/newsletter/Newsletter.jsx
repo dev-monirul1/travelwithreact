@@ -4,7 +4,7 @@ import Image from '../../components/Image'
 
 const Newsletter = () => {
   return (
-    <section className="newsletter">
+    <section id="newsletter">
         <div className="container">
             <div className="newsletter_gal">
                 <div className="newsletter_gal_item">
