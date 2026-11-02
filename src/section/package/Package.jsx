@@ -1,12 +1,14 @@
 import React from 'react'
 import './package.css'
 import { FaCheckCircle } from "react-icons/fa";
+import Image from '../../components/Image'
 
 const Package = () => {
   return (
     <section id="package">
         <div className="package_shape">
-            <img src="./images/packageshape.png" alt="img"/>
+            <Image source={logoimg} alt="logo" style="logo_img" />
+
         </div>
         <div className="container">
             <div className="package_title">
