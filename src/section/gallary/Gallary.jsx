@@ -1,5 +1,7 @@
 import React from 'react'
 import './gallary.css'
+import Image from '../../components/Image'
+import packageshape from '../../assets/images/packageshape.png'
 
 const Gallary = () => {
   return (
