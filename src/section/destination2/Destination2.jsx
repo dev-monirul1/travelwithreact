@@ -1,7 +1,7 @@
 import React from 'react'
 import './destination2.css'
 import Image from '../../components/Image'
-import logoimg from '../../assets/images/logoimg.png'
+import destination2img from '../../assets/images/destination2img.png'
 
 
 const Destination2 = () => {
@@ -10,7 +10,7 @@ const Destination2 = () => {
         <div className="container">
             <div className="destination2_wrapper">
                 <div className="destination2_img">
-                    <Image source={logoimg} alt="logo" style="logo_img" />
+                    <Image source={destination2img} alt="destination 2" style="destination2_img" />
                 </div>
                 <div className="destination2_details">
                     <h4 className="sec_subtitle">
