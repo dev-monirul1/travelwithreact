@@ -1,5 +1,6 @@
 import React from 'react'
 import './newsletter.css'
+import Image from '../../components/Image'
 
 const Newsletter = () => {
   return (
