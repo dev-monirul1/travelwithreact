@@ -31,14 +31,14 @@ const Gallary = () => {
             <div className="gal_wrapper">
                 <div className="gal_item">
                     <div className="gal_item_inner large">
-                        <Image source={packageshape} alt="package shape" style="package_shape_img" />
+                        <Image source={gallaryimg1} alt="gallaryimg1" style="gallaryimg1_img" />
                         <div className="overlay">
                             <h3>North America</h3>
                             <h6>Nice Place.</h6>
                         </div>
                     </div>
                     <div className="gal_item_inner small">
-                        <Image source={packageshape} alt="package shape" style="package_shape_img" />
+                        <Image source={gallaryimg2} alt="gallaryimg2" style="gallaryimg2_img" />
                         <div className="overlay">
                             <h3>Cambodia</h3>
                             <h6>Nice Place.</h6>
@@ -47,14 +47,14 @@ const Gallary = () => {
                 </div>
                 <div className="gal_item">
                     <div className="gal_item_inner small">
-                        <Image source={packageshape} alt="package shape" style="package_shape_img" />
+                        <Image source={gallaryimg3} alt="gallaryimg3" style="gallaryimg3_img" />
                         <div className="overlay">
                             <h3>South America</h3>
                             <h6>Nice Place.</h6>
                         </div>
                     </div>
                     <div className="gal_item_inner large">
-                        <Image source={packageshape} alt="package shape" style="package_shape_img" />
+                        <Image source={gallaryimg4} alt="gallaryimg4" style="gallaryimg4_img" />
                         <div className="overlay">
                             <h3>Cape Town</h3>
                             <h6>Nice Place.</h6>
@@ -64,14 +64,14 @@ const Gallary = () => {
                 </div>
                 <div className="gal_item">
                     <div className="gal_item_inner large">
-                        <Image source={packageshape} alt="package shape" style="package_shape_img" />
+                        <Image source={gallaryimg5} alt="gallaryimg5" style="gallaryimg5_img" />
                         <div className="overlay">
                             <h3>Europe</h3>
                             <h6>Nice Place.</h6>
                         </div>
                     </div>
                     <div className="gal_item_inner small">
-                        <Image source={packageshape} alt="package shape" style="package_shape_img" />
+                        <Image source={gallaryimg6} alt="gallaryimg6" style="gallaryimg6_img" />
                         <div className="overlay">
                             <h3>South Africa</h3>
                             <h6>Nice Place.</h6>
@@ -80,14 +80,14 @@ const Gallary = () => {
                 </div>
                 <div className="gal_item">
                     <div className="gal_item_inner small">
-                        <Image source={packageshape} alt="package shape" style="package_shape_img" />
+                        <Image source={gallaryimg7} alt="gallaryimg7" style="gallaryimg7_img" />
                         <div className="overlay">
                             <h3>New York</h3>
                             <h6>Nice Place.</h6>
                         </div>
                     </div>
                     <div className="gal_item_inner large">
-                        <Image source={packageshape} alt="package shape" style="package_shape_img" />
+                        <Image source={gallaryimg8} alt="gallaryimg8" style="gallaryimg8_img" />
                         <div className="overlay">
                             <h3>Australia</h3>
                             <h6>Nice Place.</h6>
