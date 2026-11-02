@@ -2,6 +2,7 @@ import React from 'react'
 import './newsletter.css'
 import Image from '../../components/Image'
 import newsletterimg1 from '../../assets/images/newsletterimg1.jpg'
+import newsletterimg2 from '../../assets/images/newsletterimg2.jpg'
 
 const Newsletter = () => {
   return (
@@ -12,7 +13,7 @@ const Newsletter = () => {
                     <Image source={newsletterimg1} alt="newsletterimg1" style="newsletterimg1_img" />
                 </div>
                 <div className="newsletter_gal_item">
-                    <Image source={logoimg} alt="logo" style="logo_img" />
+                    <Image source={newsletterimg2} alt="newsletterimg2" style="newsletterimg2_img" />
                 </div>
             </div>
             <div className="newsletter_box">
