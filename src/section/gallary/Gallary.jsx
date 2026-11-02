@@ -2,6 +2,14 @@ import React from 'react'
 import './gallary.css'
 import Image from '../../components/Image'
 import packageshape from '../../assets/images/packageshape.png'
+import gallaryimg1 from '../../assets/images/gallaryimg1.png'
+import gallaryimg2 from '../../assets/images/gallaryimg2.png'
+import gallaryimg3 from '../../assets/images/gallaryimg3.png'
+import gallaryimg4 from '../../assets/images/gallaryimg4.png'
+import gallaryimg5 from '../../assets/images/gallaryimg5.png'
+import gallaryimg6 from '../../assets/images/gallaryimg6.png'
+import gallaryimg7 from '../../assets/images/gallaryimg7.png'
+import gallaryimg8 from '../../assets/images/gallaryimg8.png'
 
 
 const Gallary = () => {
