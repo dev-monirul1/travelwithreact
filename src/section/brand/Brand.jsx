@@ -1,6 +1,7 @@
 import React from 'react'
 import './brand.css'
 import Image from '../../components/Image'
+import brandimg1 from '../../assets/images/brandimg1.png'
 
 const Brand = () => {
   return (
@@ -8,7 +9,7 @@ const Brand = () => {
         <div className="container">
             <div className="brand_wrapper">
                 <div className="brand_item">
-                    <img src="./images/brand img 1.png" alt=""/>
+                    <Image source={brandimg1} alt="Brand Image 1" />
                 </div>
                 <div className="brand_item">
                     <img src="./images/brand img 2.png" alt=""/>
