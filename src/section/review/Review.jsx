@@ -3,6 +3,7 @@ import './review.css'
 import Image from '../../components/Image'
 import reviewimg1 from '../../assets/images/reviewimg1.png'
 import reviewimg2 from '../../assets/images/reviewimg2.png'
+import reviewimg3 from '../../assets/images/reviewimg3.png'
 
 
 const Review = () => {
@@ -60,7 +61,7 @@ const Review = () => {
                 </div>
                 <div className="review_item">
                     <div className="review_img">
-                        <img src="./images/pic 16.jpg" alt=""/>
+                        <Image source={reviewimg3} alt="Review Image 3" />
                     </div>
                     <div className="review_details">
                         <h4>Hindley Earnshaw</h4>
