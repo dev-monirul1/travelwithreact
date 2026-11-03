@@ -51,7 +51,7 @@
     position: relative;
     z-index: 99;
 }
-.newsletter_form .form_group i{
+.newsletter_form .form_group svg{
     position: absolute;
     top: 50%;
     left: 0;
