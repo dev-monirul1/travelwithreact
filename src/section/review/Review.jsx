@@ -6,7 +6,7 @@ import reviewimg2 from '../../assets/images/reviewimg2.png'
 import reviewimg3 from '../../assets/images/reviewimg3.png'
 import reviewimg4 from '../../assets/images/reviewimg4.png'
 import reviewimg5 from '../../assets/images/reviewimg5.png'
-import reviewimg6 from '../../assets/images/reviewimg6.png'
+
 
 
 const Review = () => {
