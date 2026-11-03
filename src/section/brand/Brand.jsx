@@ -3,6 +3,7 @@ import './brand.css'
 import Image from '../../components/Image'
 import brandimg1 from '../../assets/images/brandimg1.png'
 import brandimg2 from '../../assets/images/brandimg2.png'
+import brandimg3 from '../../assets/images/brandimg3.png'
 
 const Brand = () => {
   return (
@@ -16,7 +17,7 @@ const Brand = () => {
                     <Image source={brandimg2} alt="Brand Image 2" />
                 </div>
                 <div className="brand_item">
-                    <img src="./images/brand img 3.png" alt=""/>
+                    <Image source={brandimg3} alt="Brand Image 3" />
                 </div>
                 <div className="brand_item">
                     <img src="./images/brand img 4.png" alt=""/>
