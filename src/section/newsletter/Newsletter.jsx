@@ -4,6 +4,8 @@ import Image from '../../components/Image'
 import newsletterimg1 from '../../assets/images/newsletterimg1.png'
 import newsletterimg2 from '../../assets/images/newsletterimg2.png'
 import newsletterimg3 from '../../assets/images/newsletterimg3.png'
+import { HiOutlineMail } from "react-icons/hi";
+
 
 const Newsletter = () => {
   return (
@@ -31,7 +33,7 @@ const Newsletter = () => {
                     <form className="newsletter_form">
                         <div className="form_group">
                             <input type="email" placeholder="Enter Your Email"/>
-                            <i className="fa-regular fa-envelope"></i>
+                            <HiOutlineMail />
                         </div>
                         <button>Let's Go</button>
                     </form>
