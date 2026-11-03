@@ -5,7 +5,7 @@ import reviewimg1 from '../../assets/images/reviewimg1.jpg'
 import reviewimg2 from '../../assets/images/reviewimg2.jpg'
 import reviewimg3 from '../../assets/images/reviewimg3.jpg'
 import reviewimg4 from '../../assets/images/reviewimg4.jpg'
-// import reviewimg5 from '../../assets/images/reviewimg5.png'
+import reviewimg5 from '../../assets/images/reviewimg5.jpg'
 
 
 
@@ -100,7 +100,7 @@ const Review = () => {
                 </div>
                 <div className="review_item">
                     <div className="review_img">
-                        {/* <Image source={reviewimg5} alt="Review Image 5" /> */}
+                        <Image source={reviewimg5} alt="Review Image 5" style='review_img5' />
                     </div>
                     <div className="review_details">
                         <h4>Isabella Linton</h4>
