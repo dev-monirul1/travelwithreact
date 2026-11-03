@@ -1,5 +1,6 @@
 import React from 'react'
 import './review.css'
+import Image from '../../components/Image'
 
 const Review = () => {
   return (
