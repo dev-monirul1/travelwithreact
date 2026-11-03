@@ -1,5 +1,7 @@
 import React from 'react'
 import "./footer.css"
+import { FaMessage } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
@@ -91,7 +93,7 @@ const Footer = () => {
                     <p className="peragraph">Copyright 2023-2026 example.com </p>
                     <div className="footer_social">
                         <a href="#" className="nav_action_item">
-                            <i className="fa-solid fa-message"></i>
+                            <FaMessage />
                         </a>
                         <a href="#" className="nav_action_item">
                             <i className="fa-solid fa-location-arrow"></i>
