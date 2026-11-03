@@ -7,6 +7,8 @@ import reviewimg3 from '../../assets/images/reviewimg3.jpg'
 import reviewimg4 from '../../assets/images/reviewimg4.jpg'
 import reviewimg5 from '../../assets/images/reviewimg5.jpg'
 import reviewimg6 from '../../assets/images/reviewimg6.jpg'
+import { FaStar } from "react-icons/fa";
+
 
 
 
@@ -35,11 +37,11 @@ const Review = () => {
                         <h4>Victoria Wotton</h4>
                         <h5>Traveler, Guide</h5>
                         <div className="review_rating">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
                         </div>
                         <p className="peragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                             nibh euismod tincidunt ut laoreet.</p>
@@ -53,11 +55,11 @@ const Review = () => {
                         <h4>Sonia Marmeladova</h4>
                         <h5>Traveler, Guide</h5>
                         <div className="review_rating">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
                         </div>
                         <p className="peragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                             nibh euismod tincidunt ut laoreet.</p>
@@ -71,11 +73,11 @@ const Review = () => {
                         <h4>Hindley Earnshaw</h4>
                         <h5>Traveler, Guide</h5>
                         <div className="review_rating">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
                         </div>
                         <p className="peragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                             nibh euismod tincidunt ut laoreet.</p>
@@ -89,11 +91,11 @@ const Review = () => {
                         <h4>Catherine Earnshaw</h4>
                         <h5>Traveler, Guide</h5>
                         <div className="review_rating">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
                         </div>
                         <p className="peragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                             nibh euismod tincidunt ut laoreet.</p>
@@ -107,11 +109,11 @@ const Review = () => {
                         <h4>Isabella Linton</h4>
                         <h5>Traveler, Guide</h5>
                         <div className="review_rating">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
                         </div>
                         <p className="peragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                             nibh euismod tincidunt ut laoreet.</p>
@@ -125,11 +127,11 @@ const Review = () => {
                         <h4>Jennifer Williams</h4>
                         <h5>Traveler, Guide</h5>
                         <div className="review_rating">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
                         </div>
                         <p className="peragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                             nibh euismod tincidunt ut laoreet.</p>
