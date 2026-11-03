@@ -2,6 +2,7 @@ import React from 'react'
 import './review.css'
 import Image from '../../components/Image'
 import reviewimg1 from '../../assets/images/reviewimg1.png'
+import reviewimg2 from '../../assets/images/reviewimg2.png'
 
 
 const Review = () => {
@@ -41,7 +42,7 @@ const Review = () => {
                 </div>
                 <div className="review_item">
                     <div className="review_img">
-                        <img src="./images/pic 17.jpg" alt=""/>
+                        <Image source={reviewimg2} alt="Review Image 2" />
                     </div>
                     <div className="review_details">
                         <h4>Sonia Marmeladova</h4>
