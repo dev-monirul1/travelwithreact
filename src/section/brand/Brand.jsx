@@ -1,5 +1,6 @@
 import React from 'react'
 import './brand.css'
+import Image from '../../components/Image'
 
 const Brand = () => {
   return (
